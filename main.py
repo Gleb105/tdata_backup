@@ -13,9 +13,10 @@ import requests
 ARCHIVE_NAME = 'data.zip'
 EXCLUDE_FILE = 'working'
 CHUNK_SIZE = 49 * 1024 * 1024
-TELEGRAM_BOT_TOKEN = '8434695020:AAGsS1Hc9WKIJlP0hfPiMXtR-FbdRSe-Lqk'
-TELEGRAM_CHAT_ID = '1280219492'
 LOG_FILE = None
+
+TELEGRAM_BOT_TOKEN = 'BOT_TOKEN' #Замени на свой / Replace it with your own
+TELEGRAM_CHAT_ID = 'CHAT_ID' #Замени на свой / Replace it with your own
 
 def log(msg):
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
